@@ -1,0 +1,22 @@
+# Dữ liệu runtime / bí mật do app tạo ra (KHÔNG commit, KHÔNG gửi kèm zip)
+config.json
+selectors.json
+token.json
+.wattpad_cookie.b64
+history.txt
+queue.txt
+blocked.txt
+debug.log*
+chrome_profile/
+chrome_profile_real/
+Story_Downloads/
+
+# Build / môi trường
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.spec.bak
